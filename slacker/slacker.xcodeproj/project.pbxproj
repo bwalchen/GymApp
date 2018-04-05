@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17794B892055FCC500FB9BF4 /* Running.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17794B882055FCC500FB9BF4 /* Running.jpg */; };
+		65A2CBF12048E3FE005AA5E0 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2CBF02048E3FE005AA5E0 /* WorkoutViewController.swift */; };
+		65A2CBF52049445A005AA5E0 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A2CBF42049445A005AA5E0 /* ExerciseTableViewCell.swift */; };
+		65DABC40205130C200F6F6D7 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DABC3F205130C200F6F6D7 /* FavoriteViewController.swift */; };
+		65DABC42205130EC00F6F6D7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DABC41205130EC00F6F6D7 /* TabBarViewController.swift */; };
+		65DABC442051314A00F6F6D7 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DABC432051314A00F6F6D7 /* FavoriteTableViewCell.swift */; };
+		65DABC4620521FE600F6F6D7 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DABC4520521FE600F6F6D7 /* StopwatchViewController.swift */; };
+		65DABC4820523B9F00F6F6D7 /* StopwatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DABC4720523B9F00F6F6D7 /* StopwatchTableViewCell.swift */; };
+		65F53D1C2047477B00C2B1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F53D1B2047477B00C2B1BF /* AppDelegate.swift */; };
+		65F53D1E2047477B00C2B1BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F53D1D2047477B00C2B1BF /* ViewController.swift */; };
+		65F53D212047477B00C2B1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F53D1F2047477B00C2B1BF /* Main.storyboard */; };
+		65F53D232047477B00C2B1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F53D222047477B00C2B1BF /* Assets.xcassets */; };
+		65F53D262047477B00C2B1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F53D242047477B00C2B1BF /* LaunchScreen.storyboard */; };
+		65F53D3020474F3100C2B1BF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F53D2F20474F3100C2B1BF /* AboutViewController.swift */; };
+		65F53D3620474F8A00C2B1BF /* BreakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F53D3520474F8A00C2B1BF /* BreakViewController.swift */; };
+		65F53D382047527700C2B1BF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F53D372047527700C2B1BF /* TableViewCell.swift */; };
+		99338354204FBEFE00A77647 /* MotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99338353204FBEFE00A77647 /* MotivationViewController.swift */; };
+		B55BB7B6204B9E2400F5AE95 /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BB7B5204B9E2400F5AE95 /* CongratsViewController.swift */; };
+		B55BB7B8204B9F1100F5AE95 /* WORKOUT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55BB7B7204B9F1000F5AE95 /* WORKOUT.jpg */; };
+		B562E6432055B3280080D99B /* benwWallpaperBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562E6422055B3280080D99B /* benwWallpaperBuilder.swift */; };
+		B562E6452055B55F0080D99B /* boxing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B562E6442055B55F0080D99B /* boxing.jpg */; };
+		B562E6472055C7100080D99B /* boxingEdited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B562E6462055C7100080D99B /* boxingEdited.jpg */; };
+		B562E6492055C86C0080D99B /* boxingEdited2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B562E6482055C86B0080D99B /* boxingEdited2.jpg */; };
+		B562E64B2055C9CC0080D99B /* boxingEdited3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B562E64A2055C9CC0080D99B /* boxingEdited3.jpg */; };
+		B57E9C012048DE950008F795 /* LiftingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E9C002048DE950008F795 /* LiftingViewController.swift */; };
+		B57E9C032048DEA00008F795 /* CardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E9C022048DEA00008F795 /* CardioViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17794B882055FCC500FB9BF4 /* Running.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Running.jpg; sourceTree = "<group>"; };
+		65A2CBF02048E3FE005AA5E0 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutViewController.swift; path = slacker/WorkoutViewController.swift; sourceTree = "<group>"; };
+		65A2CBF42049445A005AA5E0 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		65DABC3F205130C200F6F6D7 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		65DABC41205130EC00F6F6D7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		65DABC432051314A00F6F6D7 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		65DABC4520521FE600F6F6D7 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		65DABC4720523B9F00F6F6D7 /* StopwatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchTableViewCell.swift; sourceTree = "<group>"; };
+		65F53D182047477B00C2B1BF /* slacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F53D1B2047477B00C2B1BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65F53D1D2047477B00C2B1BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65F53D202047477B00C2B1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65F53D222047477B00C2B1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65F53D252047477B00C2B1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65F53D272047477B00C2B1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F53D2F20474F3100C2B1BF /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		65F53D3520474F8A00C2B1BF /* BreakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakViewController.swift; sourceTree = "<group>"; };
+		65F53D372047527700C2B1BF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		99338353204FBEFE00A77647 /* MotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationViewController.swift; sourceTree = "<group>"; };
+		B55BB7B5204B9E2400F5AE95 /* CongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
+		B55BB7B7204B9F1000F5AE95 /* WORKOUT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WORKOUT.jpg; sourceTree = "<group>"; };
+		B562E6422055B3280080D99B /* benwWallpaperBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = benwWallpaperBuilder.swift; path = slacker/benwWallpaperBuilder.swift; sourceTree = "<group>"; };
+		B562E6442055B55F0080D99B /* boxing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boxing.jpg; sourceTree = "<group>"; };
+		B562E6462055C7100080D99B /* boxingEdited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boxingEdited.jpg; sourceTree = "<group>"; };
+		B562E6482055C86B0080D99B /* boxingEdited2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boxingEdited2.jpg; sourceTree = "<group>"; };
+		B562E64A2055C9CC0080D99B /* boxingEdited3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boxingEdited3.jpg; sourceTree = "<group>"; };
+		B57E9C002048DE950008F795 /* LiftingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LiftingViewController.swift; path = slacker/LiftingViewController.swift; sourceTree = "<group>"; };
+		B57E9C022048DEA00008F795 /* CardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardioViewController.swift; path = slacker/CardioViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65F53D152047477B00C2B1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65F53D0F2047477B00C2B1BF = {
+			isa = PBXGroup;
+			children = (
+				65A2CBF42049445A005AA5E0 /* ExerciseTableViewCell.swift */,
+				B57E9C002048DE950008F795 /* LiftingViewController.swift */,
+				B562E6422055B3280080D99B /* benwWallpaperBuilder.swift */,
+				B57E9C022048DEA00008F795 /* CardioViewController.swift */,
+				65A2CBF02048E3FE005AA5E0 /* WorkoutViewController.swift */,
+				65F53D1A2047477B00C2B1BF /* slacker */,
+				65F53D192047477B00C2B1BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65F53D192047477B00C2B1BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F53D182047477B00C2B1BF /* slacker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65F53D1A2047477B00C2B1BF /* slacker */ = {
+			isa = PBXGroup;
+			children = (
+				65F53D1F2047477B00C2B1BF /* Main.storyboard */,
+				65DABC4720523B9F00F6F6D7 /* StopwatchTableViewCell.swift */,
+				65DABC4520521FE600F6F6D7 /* StopwatchViewController.swift */,
+				65DABC432051314A00F6F6D7 /* FavoriteTableViewCell.swift */,
+				B55BB7B5204B9E2400F5AE95 /* CongratsViewController.swift */,
+				65F53D372047527700C2B1BF /* TableViewCell.swift */,
+				65F53D2F20474F3100C2B1BF /* AboutViewController.swift */,
+				65F53D1B2047477B00C2B1BF /* AppDelegate.swift */,
+				65F53D1D2047477B00C2B1BF /* ViewController.swift */,
+				65DABC3F205130C200F6F6D7 /* FavoriteViewController.swift */,
+				65DABC41205130EC00F6F6D7 /* TabBarViewController.swift */,
+				65F53D3520474F8A00C2B1BF /* BreakViewController.swift */,
+				99338353204FBEFE00A77647 /* MotivationViewController.swift */,
+				B562E6442055B55F0080D99B /* boxing.jpg */,
+				B562E64A2055C9CC0080D99B /* boxingEdited3.jpg */,
+				B562E6462055C7100080D99B /* boxingEdited.jpg */,
+				B562E6482055C86B0080D99B /* boxingEdited2.jpg */,
+				17794B882055FCC500FB9BF4 /* Running.jpg */,
+				B55BB7B7204B9F1000F5AE95 /* WORKOUT.jpg */,
+				65F53D222047477B00C2B1BF /* Assets.xcassets */,
+				65F53D242047477B00C2B1BF /* LaunchScreen.storyboard */,
+				65F53D272047477B00C2B1BF /* Info.plist */,
+			);
+			path = slacker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F53D172047477B00C2B1BF /* slacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F53D2A2047477B00C2B1BF /* Build configuration list for PBXNativeTarget "slacker" */;
+			buildPhases = (
+				65F53D142047477B00C2B1BF /* Sources */,
+				65F53D152047477B00C2B1BF /* Frameworks */,
+				65F53D162047477B00C2B1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = slacker;
+			productName = slacker;
+			productReference = 65F53D182047477B00C2B1BF /* slacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F53D102047477B00C2B1BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ateamhasnoname;
+				TargetAttributes = {
+					65F53D172047477B00C2B1BF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65F53D132047477B00C2B1BF /* Build configuration list for PBXProject "slacker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65F53D0F2047477B00C2B1BF;
+			productRefGroup = 65F53D192047477B00C2B1BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F53D172047477B00C2B1BF /* slacker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F53D162047477B00C2B1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F53D262047477B00C2B1BF /* LaunchScreen.storyboard in Resources */,
+				B562E64B2055C9CC0080D99B /* boxingEdited3.jpg in Resources */,
+				B55BB7B8204B9F1100F5AE95 /* WORKOUT.jpg in Resources */,
+				B562E6492055C86C0080D99B /* boxingEdited2.jpg in Resources */,
+				65F53D232047477B00C2B1BF /* Assets.xcassets in Resources */,
+				17794B892055FCC500FB9BF4 /* Running.jpg in Resources */,
+				65F53D212047477B00C2B1BF /* Main.storyboard in Resources */,
+				B562E6452055B55F0080D99B /* boxing.jpg in Resources */,
+				B562E6472055C7100080D99B /* boxingEdited.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F53D142047477B00C2B1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A2CBF12048E3FE005AA5E0 /* WorkoutViewController.swift in Sources */,
+				B57E9C012048DE950008F795 /* LiftingViewController.swift in Sources */,
+				65F53D3620474F8A00C2B1BF /* BreakViewController.swift in Sources */,
+				65F53D3020474F3100C2B1BF /* AboutViewController.swift in Sources */,
+				65F53D1E2047477B00C2B1BF /* ViewController.swift in Sources */,
+				65DABC442051314A00F6F6D7 /* FavoriteTableViewCell.swift in Sources */,
+				B562E6432055B3280080D99B /* benwWallpaperBuilder.swift in Sources */,
+				B55BB7B6204B9E2400F5AE95 /* CongratsViewController.swift in Sources */,
+				65DABC4820523B9F00F6F6D7 /* StopwatchTableViewCell.swift in Sources */,
+				99338354204FBEFE00A77647 /* MotivationViewController.swift in Sources */,
+				65F53D382047527700C2B1BF /* TableViewCell.swift in Sources */,
+				65A2CBF52049445A005AA5E0 /* ExerciseTableViewCell.swift in Sources */,
+				B57E9C032048DEA00008F795 /* CardioViewController.swift in Sources */,
+				65DABC42205130EC00F6F6D7 /* TabBarViewController.swift in Sources */,
+				65DABC4620521FE600F6F6D7 /* StopwatchViewController.swift in Sources */,
+				65DABC40205130C200F6F6D7 /* FavoriteViewController.swift in Sources */,
+				65F53D1C2047477B00C2B1BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65F53D1F2047477B00C2B1BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F53D202047477B00C2B1BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65F53D242047477B00C2B1BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F53D252047477B00C2B1BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65F53D282047477B00C2B1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65F53D292047477B00C2B1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65F53D2B2047477B00C2B1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGUTWTJ65J;
+				INFOPLIST_FILE = slacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-bwalchen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65F53D2C2047477B00C2B1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGUTWTJ65J;
+				INFOPLIST_FILE = slacker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-bwalchen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F53D132047477B00C2B1BF /* Build configuration list for PBXProject "slacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F53D282047477B00C2B1BF /* Debug */,
+				65F53D292047477B00C2B1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F53D2A2047477B00C2B1BF /* Build configuration list for PBXNativeTarget "slacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F53D2B2047477B00C2B1BF /* Debug */,
+				65F53D2C2047477B00C2B1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65F53D102047477B00C2B1BF /* Project object */;
+}
