@@ -1,9 +1,10 @@
 # GymApp
 
+### Overview
+GymApp, nicknamed "slacker" is an IOS app that guides you through your workout. This app specifically targets beginner athletes who don't know what exercises they should do, how to do them, and for how long. 
+
 ![screenshot of the app](./screenshots/theApp.png)
 
-#### Overview
-GymApp, nicknamed "slacker" is an IOS app that guides you through your workout. This app specifically targets beginner athletes who don't know what exercises they should do, how to do them, and for how long. The app:
 
 ### Why
 Myself and a group of 3 others took and IOS class and thought it would be fun to make an app of our own that is both useful but can also be presnted during interviews.
